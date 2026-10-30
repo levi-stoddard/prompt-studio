@@ -1,0 +1,56 @@
+// The complete list of IPC channels the window may call. The preload refuses anything else,
+// and the main process validates every payload and the sender before acting.
+export const CHANNELS = [
+  'app:bootstrap',
+  'projects:create',
+  'projects:update',
+  'folders:list',
+  'folders:add',
+  'folders:revoke',
+  'folders:files',
+  'folders:preview',
+  'sessions:list',
+  'sessions:create',
+  'sessions:get',
+  'sessions:update',
+  'sessions:saveWorking',
+  'sessions:checkpoint',
+  'sessions:restore',
+  'sessions:approve',
+  'sessions:reopen',
+  'comments:add',
+  'comments:update',
+  'gen:preview',
+  'gen:run',
+  'recs:decide',
+  'rules:list',
+  'rules:save',
+  'rules:setEnabled',
+  'rules:history',
+  'targets:save',
+  'settings:update',
+  'settings:setBudget',
+  'budget:get',
+  'key:set',
+  'key:clear',
+  'models:list',
+  'clipboard:copy',
+  'external:openTarget',
+  'external:openHelp',
+  'export:prompt',
+  'export:library',
+  'backup:now',
+  'folder:openData',
+] as const;
+
+export type Channel = (typeof CHANNELS)[number];
+
+export type IpcResult<T> = { ok: true; data: T } | { ok: false; error: string };
+
+export const HELP_LINKS = {
+  aistudio: 'https://aistudio.google.com/',
+  apikeys: 'https://aistudio.google.com/apikey',
+  billing: 'https://ai.google.dev/gemini-api/docs/billing',
+  pricing: 'https://ai.google.dev/gemini-api/docs/pricing',
+  terms: 'https://ai.google.dev/gemini-api/terms',
+} as const;

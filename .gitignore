@@ -1,0 +1,13 @@
+node_modules/
+dist/
+out/
+*.log
+*.db
+*.db-*
+*.dpapi
+.env
+.env.*
+tests/e2e/.tmp/
+coverage/
+*.map
+docs/private/
