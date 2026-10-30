@@ -114,3 +114,11 @@ I scanned every commit on `public`: no role word, private project names, old dri
 ## Commit email switched to the GitHub noreply address (2026-10-30, approved)
 
 I set a repo-local `user.email` to the GitHub noreply address; the global git config is unchanged. Then I re-created the commits on `public` with that address as author and committer. Names, dates, messages and file contents are unchanged. `main` and `portfolio-cleanup` are local-only and were not changed.
+
+## License (2026-10-30, requested)
+
+| File | Change | Why |
+|---|---|---|
+| `LICENSE` | New: MIT, © 2026 Levi Stoddard | Requested license choice; permissive, and consistent with my other public code package |
+| `README.md` | License section now links the MIT `LICENSE` | Replaces the TODO |
+| `package.json` | Added `"license": "MIT"` | Matches `LICENSE` |

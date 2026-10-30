@@ -95,4 +95,4 @@ Close the app. Move `promptstudio.db`, `promptstudio.db-wal` and `promptstudio.d
 
 ## License
 
-TODO: choose license
+[MIT](LICENSE) © 2026 Levi Stoddard
