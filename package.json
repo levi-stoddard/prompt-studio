@@ -5,7 +5,7 @@
   "private": true,
   "description": "Local-first desktop app for versioned prompt development with hard cost gates, injection-resistant prompt assembly, and a measured-not-assumed security model.",
   "author": "Levi Stoddard",
-  "license": "MIT",
+  "license": "UNLICENSED",
   "main": "dist/main/main.js",
   "scripts": {
     "build": "node scripts/build.mjs",
