@@ -98,3 +98,15 @@ The drafted diff was shown for review before it was applied. It is kept as `docs
 | `main` | Untouched; all cleanup commits are on `portfolio-cleanup` |
 | Push / remote | None. The commands are in the hand-off for me to run. |
 | History | The three commits before this cleanup still contain the role word, the private project names, the old drive path and the Windows username. A public push of `main` publishes them unless history is rebuilt. |
+
+## Clean-history `public` branch (2026-10-30, approved)
+
+I built a new branch, `public`, for the GitHub push. It has fresh history and nothing was rewritten: `main` (2af085d) and `portfolio-cleanup` (c2f21c5) are unchanged.
+
+| Commit | Content |
+|---|---|
+| 1 | The full `portfolio-cleanup` tree minus `docs/acceptance/` |
+| 2 | Adds `docs/acceptance/` (regenerated e2e results and screenshots). The tree is identical to `portfolio-cleanup`. |
+| 3 | This log entry |
+
+I scanned every commit on `public`: no role word, private project names, old drive path or Windows username. The only match is the `package.json` author (kept per 2B.7). The earlier commit hashes mentioned in this log refer to the local `portfolio-cleanup` branch, which is not pushed.
