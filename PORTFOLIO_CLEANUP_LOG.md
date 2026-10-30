@@ -110,3 +110,7 @@ I built a new branch, `public`, for the GitHub push. It has fresh history and no
 | 3 | This log entry |
 
 I scanned every commit on `public`: no role word, private project names, old drive path or Windows username. The only match is the `package.json` author (kept per 2B.7). The earlier commit hashes mentioned in this log refer to the local `portfolio-cleanup` branch, which is not pushed.
+
+## Commit email switched to the GitHub noreply address (2026-10-30, approved)
+
+I set a repo-local `user.email` to the GitHub noreply address; the global git config is unchanged. Then I re-created the commits on `public` with that address as author and committer. Names, dates, messages and file contents are unchanged. `main` and `portfolio-cleanup` are local-only and were not changed.
