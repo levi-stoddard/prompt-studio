@@ -131,3 +131,9 @@ I set a repo-local `user.email` to the GitHub noreply address; the global git co
 | `npm run package` | Built from `7cce418` and installed to `<home>pp`. All verification checks passed: Electron fuses, no sources/maps/keys/`.env` in the package, no embedded API keys, and installed files byte-identical to the build (fingerprint 6a9ba1496d18fc95). |
 | Installed contents | The new starter rule wording and `"license": "MIT"` are present. The desktop shortcut target is unchanged. |
 | Data | Not touched by packaging |
+
+## GitHub repo recreated (2026-10-30, requested)
+
+The first GitHub repo had been created public with the pre-cleanup history. The clean history was later force-pushed over it, but the old commits stayed fetchable by SHA. I deleted that repo and asked for it to be recreated **private**; the clean `public` branch was then pushed as `main`.
+
+Verified: the repo is private, `main` equals local `public`, every commit uses the noreply address, and the three pre-cleanup commit SHAs return "No commit found".
