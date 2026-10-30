@@ -122,3 +122,12 @@ I set a repo-local `user.email` to the GitHub noreply address; the global git co
 | `LICENSE` | New: MIT, © 2026 Levi Stoddard | Requested license choice; permissive, and consistent with my other public code package |
 | `README.md` | License section now links the MIT `LICENSE` | Replaces the TODO |
 | `package.json` | Added `"license": "MIT"` | Matches `LICENSE` |
+
+## Repackaged and installed (2026-10-30, requested)
+
+| Step | Result |
+|---|---|
+| `setx PROMPTSTUDIO_HOME` | Set to the existing base directory, so the installed app keeps using the existing data |
+| `npm run package` | Built from `7cce418` and installed to `<home>pp`. All verification checks passed: Electron fuses, no sources/maps/keys/`.env` in the package, no embedded API keys, and installed files byte-identical to the build (fingerprint 6a9ba1496d18fc95). |
+| Installed contents | The new starter rule wording and `"license": "MIT"` are present. The desktop shortcut target is unchanged. |
+| Data | Not touched by packaging |
