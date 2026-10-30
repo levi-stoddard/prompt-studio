@@ -1,0 +1,247 @@
+{
+  "ranAt": "2026-10-30T17:21:58.100Z",
+  "passed": 48,
+  "total": 48,
+  "results": [
+    {
+      "name": "Window has no Node.js require/process",
+      "ok": true,
+      "detail": "{\"require\":\"undefined\",\"process\":\"undefined\",\"bridge\":[\"invoke\"],\"env\":{\"sandboxed\":true,\"contextIsolated\":true},\"url\":\"app://promptstudio/index.html\",\"net\":\"blocked\",\"badChannel\":\"refused\"}"
+    },
+    {
+      "name": "Bridge exposes only invoke()",
+      "ok": true,
+      "detail": "invoke"
+    },
+    {
+      "name": "Renderer is sandboxed and context-isolated",
+      "ok": true,
+      "detail": "{\"sandboxed\":true,\"contextIsolated\":true}"
+    },
+    {
+      "name": "Window loads from app:// origin",
+      "ok": true,
+      "detail": "app://promptstudio/index.html"
+    },
+    {
+      "name": "Renderer network access is blocked",
+      "ok": true,
+      "detail": "blocked"
+    },
+    {
+      "name": "Unknown IPC channel is refused",
+      "ok": true,
+      "detail": "refused"
+    },
+    {
+      "name": "Chromium data kept inside the app data folder",
+      "ok": true,
+      "detail": "{\"userData\":\"C:\\\\tmp\\\\promptstudio-e2e-1793380892951\\\\data\\\\electron\",\"sessionData\":\"C:\\\\tmp\\\\promptstudio-e2e-1793380892951\\\\data\\\\electron\"}"
+    },
+    {
+      "name": "Six starter rules are seeded",
+      "ok": true,
+      "detail": "6"
+    },
+    {
+      "name": "Two starter rules are protected",
+      "ok": true,
+      "detail": "2"
+    },
+    {
+      "name": "Target-AI rule created and versioned (v2)",
+      "ok": true,
+      "detail": "{\"id\":\"5f40b60f-4c1a-4d8a-a4f6-c8abd185a3b4\",\"scope\":\"target\",\"projectId\":null,\"targetId\":\"claude\",\"category\":\"General\",\"title\":\"Claude: ask for a short plan first\",\"body\":\"Ask Claude to outline its plan in at most three bullet points before writing the full answer.\",\"enabled\":true,\"protected\":false"
+    },
+    {
+      "name": "Project folder authorized",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "Original preserved unchanged as v1",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "Generated draft created as v2",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "Protected rules appended verbatim (Claude XML block)",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "Target-AI rule applied to the Claude draft",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "Global rules recorded as applied",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "Mock generation records no billable cost",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "Manual edit autosaved and versioned (v3)",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "Comment attached to highlighted text",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "Comment highlight shown in editor",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "Whole-prompt revision created (v4)",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "Selected-passage revision created (v5)",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "Text outside the selection unchanged",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "Side-by-side comparison shows additions",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "Restore creates a new version; history kept",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "Challenge mode lists recommendations separately",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "Recommendations are not silently merged into the draft",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "Accepted recommendation applied as its own version",
+      "ok": true,
+      "detail": "original,generated,edit,revision,revision,restored,generated,accepted"
+    },
+    {
+      "name": "Accepted text placed above the binding constraints",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": ".git folder excluded from listing",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": ".env file blocked",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "Review dialog shows the exact excerpts before sending",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "File containing an API key is blocked from sending",
+      "ok": true,
+      "detail": "Possible credentials detected (Google API key in fixture-project/config.json; Password assignment in fixture-project/config.json). Remove them before generating."
+    },
+    {
+      "name": "Project files left unmodified",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "Prompt approved and recorded",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "Approved prompt copied to clipboard",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "Open Claude opens only the start page (prompt not in URL)",
+      "ok": true,
+      "detail": "[\"https://claude.ai/new\"]"
+    },
+    {
+      "name": "History persists after restart",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "Daily automatic backup created",
+      "ok": true,
+      "detail": "auto-2026-10-30.db"
+    },
+    {
+      "name": "Budget indicator shows the allowance as nearly used ($20.00 / $20.00)",
+      "ok": true,
+      "detail": "Gemini 2026-10\n$20.00 / $20.00\nOver 90% used\n· mock mode (no cost)"
+    },
+    {
+      "name": "Budget indicator warns above 90%",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "Key stored as configured (never shown)",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "Key file is encrypted (plaintext not present)",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "Allowance not raised without confirmation",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "Billable generation blocked when worst case exceeds remaining allowance",
+      "ok": true,
+      "detail": "Blocked: this request could cost up to $0.032, but only $0.001 of the $20.00 monthly allowance remains."
+    },
+    {
+      "name": "No network request was attempted while blocked",
+      "ok": true,
+      "detail": "0"
+    },
+    {
+      "name": "No usage recorded for the blocked attempt",
+      "ok": true,
+      "detail": "19.999"
+    },
+    {
+      "name": "Blocked attempt recorded in the audit log",
+      "ok": true,
+      "detail": "2"
+    }
+  ]
+}
